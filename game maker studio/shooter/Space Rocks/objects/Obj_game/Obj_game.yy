@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_game",
+  "%Name":"obj_game",
   "eventList":[],
   "managed":true,
-  "name":"Obj_game",
+  "name":"obj_game",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
