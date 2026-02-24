@@ -25,7 +25,7 @@ if (powerup == 1)
 	_bullet = instance_create_layer(x, y, "instances", obj_bullet);
 	_bullet.direction -= 10
 }
-if (mouse_check_button_pressed(mb_left)
+if mouse_check_button_pressed (mb_left)
 {
 	instance_create_layer(x, y, "instances", obj_bullet);
 	audio_play_sound(snd_bang, 0, false, 1, 0, random_range(0.8, 1.2));
