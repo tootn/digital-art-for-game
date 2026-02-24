@@ -1,1 +1,1 @@
-powwrup_time -= delta_time / 100000
+powerup_time -= delta_time / 100000

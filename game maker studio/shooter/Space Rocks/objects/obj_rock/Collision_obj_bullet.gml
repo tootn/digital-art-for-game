@@ -1,4 +1,4 @@
-if (obj_game.powerup_time < 0);
+if (obj_game.powerup_time < 0)
 {
 	var _obj = choose(obj_powerup_ghost, obj_powerup_spread);
 	instance_create_layer(x, y, "instances", _obj); 
@@ -26,3 +26,4 @@ else
 {
 	instance_destroy();	
 }
+audio_play_sound(snd_boom, 0, false, 1, 0, random_range(0.6, 1.1));
