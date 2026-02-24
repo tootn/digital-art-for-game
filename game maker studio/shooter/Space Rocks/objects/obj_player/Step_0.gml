@@ -18,3 +18,10 @@ if mouse_check_button_pressed(mb_left)
 {
 	instance_create_layer(x,y, "instances", obj_bullet);
 }
+if (powerup == 1)
+{
+	var _bullet = instance_create_layer(x, y, "instances", obj_bullet);
+	_bullet.direction += 10;
+	_bullet = instance_create_layer(x, y, "instances", obj_bullet);
+	_bullet.direction -= 10
+}
