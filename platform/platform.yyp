@@ -35,7 +35,8 @@
   "name":"platform",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
+    {"id":{"name":"figure","path":"sprites/figure/figure.yy",},},
+    {"id":{"name":"platform","path":"sprites/platform/platform.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
